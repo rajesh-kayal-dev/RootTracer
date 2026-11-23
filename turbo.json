@@ -1,0 +1,42 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "globalDependencies": [
+    "tsconfig.base.json",
+    "eslint.config.mjs",
+    "prettier.config.mjs",
+    "vitest.config.mjs"
+  ],
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**", "!.next/dev/**"],
+      "env": ["NODE_ENV", "NEXT_PUBLIC_*"]
+    },
+    "dev": {
+      "dependsOn": ["^build"],
+      "cache": false,
+      "persistent": true,
+      "passThroughEnv": [
+        "NODE_ENV",
+        "LOG_LEVEL",
+        "HOST",
+        "*_PORT",
+        "SHUTDOWN_TIMEOUT_MS",
+        "NEXT_PUBLIC_*"
+      ]
+    },
+    "typecheck": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "lint": {
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "outputs": [],
+      "env": ["NODE_ENV"]
+    }
+  }
+}
