@@ -1,0 +1,238 @@
+{
+  "visualSource": "Concept A — Clear Overview",
+  "tokens": {
+    "ink": "#202124",
+    "muted": "#526174",
+    "blue": "#185ABC",
+    "soft": "#E8F0FE",
+    "canvas": "#F7F9FC",
+    "line": "#E5EAF1",
+    "amber": "#8A4B00",
+    "amberSoft": "#FFF4DF",
+    "green": "#137333",
+    "greenSoft": "#E8F5E9",
+    "red": "#B3261E",
+    "redSoft": "#FCEAE8"
+  },
+  "artboard": {
+    "width": 1600,
+    "height": 1200
+  },
+  "type": {
+    "family": "Arial",
+    "body": 16,
+    "label": 14,
+    "title": 30,
+    "code": "Consolas 14"
+  },
+  "spacing": [
+    8,
+    16,
+    20,
+    24,
+    40
+  ],
+  "components": [
+    "AppShell",
+    "WorkflowProgress",
+    "MetricCard",
+    "StatusBadge",
+    "DataTable",
+    "EvidencePanel",
+    "CodeViewer",
+    "ApprovalGate",
+    "ConnectionStatus",
+    "OperationTimeline",
+    "PatchPreview",
+    "InputField"
+  ],
+  "pages": [
+    {
+      "id": "landing",
+      "title": "01 · Landing Page",
+      "route": "/",
+      "stage": 0,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /. Current workflow: Connect application. Primary CTA opens signup, then email verification and project creation. No fabricated customer logos, pricing, compliance claims or automatic recovery promises.",
+      "elements": 72,
+      "texts": 52,
+      "checks": []
+    },
+    {
+      "id": "signup",
+      "title": "02 · Sign Up",
+      "route": "/signup",
+      "stage": 0,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /signup. Current workflow: Connect application. Auth states: submission loading, field validation, generic incorrect-credentials error, email verification pending, resend cooldown, expired verification link, password-reset request and reset success. Do not expose whether an email exists. After signup show verification pending; only verified users can create a project. Login/session and logout are secure application responsibilities.",
+      "elements": 53,
+      "texts": 38,
+      "checks": []
+    },
+    {
+      "id": "login",
+      "title": "03 · Login",
+      "route": "/login",
+      "stage": 0,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /login. Current workflow: Connect application. Auth states: submission loading, field validation, generic incorrect-credentials error, email verification pending, resend cooldown, expired verification link, password-reset request and reset success. Do not expose whether an email exists. After signup show verification pending; only verified users can create a project. Login/session and logout are secure application responsibilities.",
+      "elements": 52,
+      "texts": 38,
+      "checks": []
+    },
+    {
+      "id": "project",
+      "title": "04 · Project Creation",
+      "route": "/projects/new",
+      "stage": 0,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/new. Current workflow: Connect application. Create project generates a scoped ingestion key and opens SDK setup. Name required; validate trimmed name and ownership. Loading and duplicate-name/creation failure states preserve entered values. Runtime and project examples are illustrative.",
+      "elements": 89,
+      "texts": 58,
+      "checks": []
+    },
+    {
+      "id": "sdk",
+      "title": "05 · SDK Setup & Connection",
+      "route": "/projects/northstar/setup",
+      "stage": 0,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/setup. Current workflow: Connect application. SDK package and API names are design placeholders pending the SDK contract. Keys are masked, ingestion-only and scoped; reveal is explicit, copy action must not log a secret. Store credentials in environment variables, not client-side code. Connection states: waiting for first event, checking, received, invalid/revoked key, wrong project/environment and ingestion timeout. Open overview only after a successfully received event.",
+      "elements": 106,
+      "texts": 71,
+      "checks": [
+        "Connected",
+        "13:59:56 UTC"
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "06 · Monitoring Dashboard",
+      "route": "/projects/northstar/overview",
+      "stage": 1,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/overview. Current workflow: Monitor. Approved Concept A is the main overview. Metrics/table/chart reflect 13:00–14:00 UTC, 22 November 2026. Error 216/12000=1.8%; RT-204 186 events and RT-205 30 API failure events total 216. Inventory sync has 8 job failures, not extra API failures. Availability requires configured health checks; database data comes from instrumentation. Error rate >1% and p95 >500ms alert rules are firing. Clicking an issue opens Incident Details; AI panel opens its contextual investigation. Empty state offers setup, disconnected state shows last data time, loading keeps layout stable.",
+      "elements": 212,
+      "texts": 90,
+      "checks": []
+    },
+    {
+      "id": "errors",
+      "title": "07 · Error Explorer",
+      "route": "/projects/northstar/errors",
+      "stage": 2,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/errors. Current workflow: Detect. Filter and URL state must persist across list-detail navigation. Severity plus textual labels, never color only. Search matches message, endpoint and ID. Sort by severity, count or last seen. Empty search shows reset-filters action; zero incidents is a healthy empty state. Table keyboard row activation must preserve accessible links.",
+      "elements": 242,
+      "texts": 88,
+      "checks": []
+    },
+    {
+      "id": "incident",
+      "title": "08 · Incident Details",
+      "route": "/projects/northstar/incidents/RT-204",
+      "stage": 2,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/incidents/RT-204. Current workflow: Detect. Code and source line are available only with connected source mapping. The highlighted line is the error surface, not proof of root cause. All timestamps UTC on 22 November 2026; millisecond event times preserve ordering. Logs/stack trace are expandable, secrets redacted; never render raw untrusted HTML. Related operation opens impact tracker. Investigation requires explicit click.",
+      "elements": 112,
+      "texts": 77,
+      "checks": []
+    },
+    {
+      "id": "investigator",
+      "title": "09 · AI Investigator",
+      "route": "/projects/northstar/investigations/INV-204",
+      "stage": 3,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/investigations/INV-204. Current workflow: Investigate. Observations, hypotheses and missing evidence are distinct. Evidence IDs link to events, source and release. No confidence percentages or definitive root-cause claims. States: explicit start, analyzing, ready, insufficient evidence, provider error and saved history. AI never executes commands, changes code, retries jobs or deploys silently.",
+      "elements": 99,
+      "texts": 66,
+      "checks": [
+        "Hypothesis · Unverified",
+        "E01 · Runtime events",
+        "What we still need"
+      ]
+    },
+    {
+      "id": "security",
+      "title": "10 · Security Monitoring",
+      "route": "/projects/northstar/security",
+      "stage": 2,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/security. Current workflow: Detect. Findings and rule IDs are fictional demo data, not actual CVEs. Coverage limited to configured repository/dependency scanners. States include disconnected, scanning, failure, stale evidence, no findings, detail, remediation and rescan. SDK alone does not scan all vulnerabilities.",
+      "elements": 114,
+      "texts": 73,
+      "checks": []
+    },
+    {
+      "id": "impact",
+      "title": "11 · Business Impact Tracker",
+      "route": "/projects/northstar/impact",
+      "stage": 4,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/impact. Current workflow: Understand impact. Snapshot 14:00 UTC: 24 delayed operations = 12 eligible + 8 blocked + 4 need evidence. ORD-1044 payment status unknown and is ineligible. Filter by operation type, state, time and ID. No financial-loss estimates or sensitive payment data. Explicitly configured events correlate by operation/trace ID. Missing events never imply success.",
+      "elements": 145,
+      "texts": 92,
+      "checks": []
+    },
+    {
+      "id": "recovery-review",
+      "title": "12 · Recovery Center — Approval",
+      "route": "/projects/northstar/recovery/ORD-1042/review",
+      "stage": 5,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/recovery/ORD-1042/review. Current workflow: Approve recovery. Review 14:06 UTC. Owner-only action, unchecked approval and disabled submit. Revalidate eligibility, retry budget and application idempotency immediately before execution. Confirmation job only; never replay payment. Application owns duplicate prevention; no exactly-once guarantee. Prevent duplicate submits; record actor/time/scope. Transition accepted→executing→pending verification; a queue acknowledgement is not success. Block unsupported/incomplete evidence and explain why.",
+      "elements": 124,
+      "texts": 81,
+      "checks": [
+        "Preview · Not executed",
+        "Approve & retry one job"
+      ]
+    },
+    {
+      "id": "recovery-result",
+      "title": "13 · Recovery Center — Verified Result",
+      "route": "/projects/northstar/recovery/REC-307",
+      "stage": 6,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/recovery/REC-307. Current workflow: Verify result. Later state: 1 verified + 11 eligible + 8 blocked + 4 need evidence = 24. Verification requires matching application outcome event, operation and recovery ID, not worker acknowledgement alone. Other states: executing, pending verification, failed, deadline-exceeded/uncertain, duplicate suppressed. Uncertain results do not permit blind retry. Retain immutable audit; never auto-resolve incident.",
+      "elements": 107,
+      "texts": 69,
+      "checks": [
+        "confirmation_succeeded",
+        "23 orders still need attention."
+      ]
+    },
+    {
+      "id": "github",
+      "title": "14 · GitHub Code Analysis",
+      "route": "/projects/northstar/code/RT-204",
+      "stage": 3,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/code/RT-204. Current workflow: Investigate. Selected repository starts contents/metadata read-only. Optional draft PR requires explicit permission review and user action; do not request workflow admin, merge or deploy authority. Preview is not an existing PR. After authorization+create show actual PR URL/status. Diff has +6/-2, exactly as shown. Tests are not run. States: disconnected, unmapped source, patch failure, permissions denied, stale base, PR creation pending/succeeded/failed.",
+      "elements": 106,
+      "texts": 65,
+      "checks": [
+        "Not created",
+        "Unit tests: not run",
+        "No automatic merge or deployment."
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "15 · Project Settings",
+      "route": "/projects/northstar/settings",
+      "stage": 0,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: /projects/northstar/settings. Current workflow: Connect application. Owner manages own projects; no team RBAC. Save only changed/valid settings. Rotate/revoke require explicit confirmation and affected-environment preview; reveal new key once; never log it. Integration scopes/disconnect; verified alert email/rule editing/delivery failures. 14-day retention is fictional selectable demo data, not an established default. Deletion uses separate scoped warning and typed confirmation. Profile menu provides account/session/logout.",
+      "elements": 108,
+      "texts": 71,
+      "checks": []
+    },
+    {
+      "id": "flow",
+      "title": "16 · User-Flow Overview",
+      "route": "handoff/user-flow",
+      "stage": 0,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: handoff/user-flow. Current workflow: Connect application. Overview is the hub; six modules persist in sidebar. Incident→AI→Impact→Recovery retains project, environment, time, incident and operation. Code Analysis is a branch for a reviewable patch and optional draft PR, with developer-controlled tests/merge/deploy. Settings globally accessible. Auth/email verification precedes project creation. Editable flow specification, not an application screen.",
+      "elements": 52,
+      "texts": 34,
+      "checks": []
+    },
+    {
+      "id": "system",
+      "title": "17 · Reusable Design System",
+      "route": "handoff/design-system",
+      "stage": 0,
+      "notes": "Visual source: approved Concept A — Clear Overview. 1600×1200 desktop artboard; Arial body 16px, labels 14–15px, title 30px. Sidebar 232px, topbar 72px, content gutter 40px, card radius 12px, 20–24px gaps. Static editable UI mockup, not connected to live systems. All names, records, scanner findings and metrics are fictional demo data. No production action has been executed. Responsive handoff: below 1200px collapse sidebar to a labelled icon rail; below 900px use an accessible navigation drawer and single-column cards. Tables/code scroll inside labelled containers; retain keyboard focus and visible controls. Use semantic landmarks, labels, table headers, live status announcements and a 2px blue focus indicator. Maintain 4.5:1 normal-text contrast. No business logic is implemented by these designs. Route: handoff/design-system. Current workflow: Connect application. Exact tokens in source. Normal text contrast at least 4.5:1 on designed surfaces. Semantic nav/h1/labels/table headers; navigation links vs action buttons; aria-live connection/execution/outcome; visible focus. Disabled action reason adjacent. Responsive guidance, not tested application code. Canva has native editable primitives, not synchronized Figma component instances or generated React components.",
+      "elements": 85,
+      "texts": 54,
+      "checks": []
+    }
+  ]
+}
